@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="" id="img">
+    </div>
+    
+    <button onclick="Img1()">Img1</button>
+    <button onclick="Img2()">Img2</button>
+
+    <script>
+        function Img1(){
+            var IMG = document.getElementById('img');
+                IMG.src = "image1.png"
+                IMG.height = "200"
+                IMG.weight = "400"
+        }
+        function Img2(){
+            var IMG = document.getElementById('img');
+                IMG.src = "image2.png"
+                IMG.height = "200"
+                IMG.weight = "400"
+        }
+    </script>
+</body>
+</html>

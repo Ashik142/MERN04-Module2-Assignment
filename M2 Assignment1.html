@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> 
+        <img src="" id="img" >
+    </div>
+    <h1 id="H1"></h1>
+    <button onclick="showText()">Show Text</button><br> <br>
+    <button onclick="showImg()">Show Img</button><br> <br>
+    
+    <script>
+        function showText(){
+            document.getElementById('H1').innerHTML = "hello how are You?"
+        }
+        function showImg(){
+           var IMG = document.getElementById('img');
+               IMG.src = "browser.png"
+               IMG.height = "200"
+               IMG.weight = "400"
+        }
+    </script>
+</body>
+</html>
